@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+button#clear {
+  background-color: #dc3545;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#nutrition-info {
+  margin-top: 20px;
+}
+
+#nutrition-info p {
+  margin: 5px 0;
+}
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: green;
+  
+}
+
+#green {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  color: #4267b2; /* Facebook blue */
+}
+
+.contact-info i.fa-youtube {
+  color: #ff0000; /* YouTube red */
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

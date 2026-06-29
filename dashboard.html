@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <script
+      src="https://kit.fontawesome.com/5e7a86651c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Fitness Pal</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="image-container">
+        <img src="images/green.jpg" alt="green" class="responsive-image" />
+        <div class="overlay">
+          <div class="container">
+            <h1>Let's Calculate Your Nutrition!</h1>
+            <form id="nutrition-form">
+              <label for="food">Enter a food: </label>
+              <input type="text" id="food" name="food" required />
+
+              <label for="drinks">Enter a drink: </label>
+              <input type="text" id="drinks" name="drinks" />
+
+              <label for="amount">Enter amount of Food: </label>
+              <input type="number" id="amount" name="amount" />
+
+              <label for="rice">Enter amount of rice: </label>
+              <input type="number" id="rice" name="rice" />
+
+              <label for="amount1">Enter amount of Drinks: </label>
+              <input type="number" id="amount1" name="amount1" />
+
+              <button type="submit">Get Nutrition Info</button>
+              <button type="button" id="clear">Clear</button>
+
+              <div id="nutrition-info">
+                <p id="calories">Total calories:</p>
+                <p id="fat">Total fats:</p>
+                <p id="carbs">Total carbs:</p>
+                <p id="protein">Total protein:</p>
+              </div>
+            </form>
+            <div class="contact-info">
+              <h2>For more information</h2>
+              <p>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com" target="_blank"
+                  >Facebook Account</a
+                >
+              </p>
+              <p>
+                <i class="fa-brands fa-youtube"></i>
+                <a
+                  href="https://www.youtube.com/watch?v=2Z50YDZBFOQ"
+                  target="_blank"
+                  >YouTube Workout Tutorial</a
+                >
+              </p>
+              <p>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:dreisbetter@gmail.com">dreisbetter@gmail.com</a>
+              </p>
+              <p>
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:09509138281">09509138281</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

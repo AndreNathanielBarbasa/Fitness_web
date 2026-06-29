@@ -1,0 +1,6 @@
+services:
+  fitness-web:
+    build: .
+    container_name: fitness-web
+    ports:
+      - "8080:80"
